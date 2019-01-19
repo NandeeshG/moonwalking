@@ -5,6 +5,7 @@
 int main()
 {
     int n;
+    printf("Input the number you want to find factorial of ");
     scanf("%d", &n);
     //int *arr = new int[n+1];
     //printf("%d", n);
@@ -14,6 +15,6 @@ int main()
     {
         arr[i] = i * arr[i - 1];
     }
-    printf("%llu", arr[n]);
+    printf("The factorial of %d is \n %llu", n, arr[n]);
     return 0;
 }
