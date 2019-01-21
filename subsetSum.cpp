@@ -1,6 +1,6 @@
 // given an array and k
 // return all subsets summing to k
-
+//naman ed
 #include <iostream>
 #include <math.h>
 #define debug(a) cout << #a << '=' << a << endl
