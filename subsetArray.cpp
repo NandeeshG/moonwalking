@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #define SIZE 10000
-//nandeesh mother fucker
+
 int subset(int input[20], int length, int output[SIZE][20])
 {
     if (length == 0)
