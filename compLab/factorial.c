@@ -4,6 +4,13 @@
 #include <stdio.h>
 int main()
 {
+    char name[20];
+    printf("Enter your name- ");
+    scanf("%s", &name);
+    printf("Hi %s. This program\n", name);
+
+    printf("Prints factorial of given number. (max 23)\n\n");
+
     int n;
     printf("Input the number you want to find factorial of ");
     scanf("%d", &n);
@@ -18,3 +25,16 @@ int main()
     printf("The factorial of %d is \n %llu", n, arr[n]);
     return 0;
 }
+/*
+D:\Documents\Programming\online\moonwalking\compLab>gcc factorial.c
+
+D:\Documents\Programming\online\moonwalking\compLab>a.exe
+Enter your name- NandeeeshGupta
+Hi NandeeeshGupta. This program
+Prints factorial of given number. (max 23)
+
+Input the number you want to find factorial of 20
+The factorial of 20 is
+ 2432902008176640000
+D:\Documents\Programming\online\moonwalking\compLab>
+*/

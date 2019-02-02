@@ -5,14 +5,8 @@
 #include <math.h>
 int main()
 {
-    char name[20];
-    printf("Enter your name- ");
-    scanf("%s", &name);
-    printf("Hi %s. This program\n", name);
-
-    printf("Prints sum of geometric series.\n");
     int a, n, r;
-    printf("Input first term, total terms, multiplying factor -> ");
+    printf("Input a, n, r -> ");
     scanf("%d %d %d", &a, &n, &r);
     int sum = a * (pow(r, n) - 1) / (r - 1);
     printf("Geometric series sum = %d", sum);

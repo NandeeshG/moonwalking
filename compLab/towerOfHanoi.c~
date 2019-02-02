@@ -29,12 +29,6 @@ void towerOfHanoi(int n, char *r1, char *r2, char *r3)
 
 int main()
 {
-    char name[20];
-    printf("Enter your name- ");
-    scanf("%s", &name);
-    printf("Hi %s. This program\n", name);
-
-    printf("Prints all steps to solve Tower of Hanoi.\n\n");
     int n;
     printf("Enter number of disks ");
     scanf("%d", &n);
